@@ -19,11 +19,6 @@ namespace Mochan_Quick_Shape_Check_0
 
             string[] lines = File.ReadAllLines(path, Encoding.UTF8);
 
-            foreach (string line in lines)
-            {
-                Console.WriteLine(line);
-            }
-
             Console.WriteLine();
             Console.WriteLine("You have {0} elements in your text file. It should be 28.", lines.Length);
             Console.WriteLine();
